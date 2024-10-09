@@ -1,0 +1,46 @@
+
+
+<div
+    id="searchInput"
+>
+    <div class="assemble flex row">
+        
+        <div class="inp-wrap flex center">
+            <div
+                class="fit-size flex row"
+                style="
+                    margin: 0 20px;
+                    width: calc(100% - 20px)
+                "
+            >
+                <input
+                    placeholder
+                />
+                <!-- "Enter your request" -->
+
+                <button type="reset" class="hidden fit-size clear">
+                    {{b/svg/icon/cross.svg}}
+                </button>
+            </div>
+        </div>
+
+        <button type="submit" class="flex center clear #( p.static )">
+            <b--svg--icon--search />
+        </button>
+    </div>
+
+    
+    <div
+        class="droplist hidden"
+    >
+        <ul>
+            <b--all--search-input--point
+                type="app"
+                href="href"
+            >
+                children
+            </b--all--search-input--point>
+        </ul>
+    </div>
+
+</div>

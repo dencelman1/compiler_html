@@ -1,0 +1,39 @@
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="40px" height="40px"
+    viewBox="0 0 24 24"
+    id="appsIcon"
+    class=""
+    fill="none"
+> 
+    <rect
+        x="5" y="5"
+    />
+    <rect
+        x="11" y="5" data-type="top"
+    />
+    <rect
+        x="17" y='5'
+    />
+
+    <rect
+        x='5' y='11' data-type="left"
+    />
+    <rect
+        x="11" y="11"
+    />
+    <rect
+        x="17" y='11' data-type='right'
+    />
+
+    <rect
+        x='5' y='17'
+    />
+    <rect
+        x='11' y='17' data-type="bottom"
+    />
+    <rect
+        x='17' y='17'
+    />
+</svg>

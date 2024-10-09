@@ -1,0 +1,30 @@
+
+
+
+<span class="titleinput" id="#(p.id)">
+
+    <input
+        onkeydown='(event.key === "Enter") && (
+            event.currentTarget.blur()
+        )'
+        onfocus='
+            var t = event.currentTarget;
+            t.parentElement.classList.add("focus");
+        '
+        onblur='
+            var t = event.currentTarget;
+
+            t.nextElementSibling.textContent = t.value;
+            t.parentElement.classList.remove("focus");
+        '
+        class="clear"
+        data-other="here"
+        value="#(p.value)"
+    />
+
+    <span
+        class="c"
+    >
+        #(p.value)
+    </span>
+</span>

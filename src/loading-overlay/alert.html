@@ -1,0 +1,28 @@
+<dialog
+    id="alert"
+    data-id="0"
+>
+    <div class="content-wrap">
+        
+        <div class="content">
+            <p class="title"></p>
+            <p class="desc"></p>
+        </div>
+
+        
+        
+    </div>
+    <form class="flex column">
+        <input />
+        <p class="btns full-width">
+            <a
+                class="unlog"
+                href="{{env.AUTH_ORIGIN}}/login?goto={{env.ACCOUNT_ORIGIN}}"
+            >
+                Log in
+            </a>
+            <button class="ok">Ok</button>
+            <button class="close">Cancel</button>
+        </p>
+    </form>
+</dialog>

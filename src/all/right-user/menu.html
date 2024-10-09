@@ -1,0 +1,74 @@
+
+
+<div
+    id="rightUserMenu"
+    data-status="closed"
+    class="flex center-row"
+    
+    style="
+        padding: 20px;
+    "
+>
+    <div class="full-size flex"
+        itemscope
+        style="
+            
+            gap: 20px;
+        "
+    >
+
+    <div
+        class="flex row"
+        style="
+            gap: 10px;
+            margin-bottom: auto;
+        "
+    >
+        
+        <div class="c-info" >
+            <p style="font-size: 25px;" itemprop="name"></p>
+            <p itemprop="email"></p>
+        </div>
+        <div class="avatar fit-size">
+            <img
+                itemprop="avatar"
+                style="
+                    border-radius: 100%;
+                    background-color: black;
+                    width: 80px;
+                    aspect-ratio: 1/1;
+                "
+            >
+        </div>
+        
+    </div>
+
+    <div
+        class="switchAcc flex"
+    >
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="downBar flex row" style="
+        margin-top: auto;
+    ">
+
+        <a
+            class="add flex center"
+            href="{{env.AUTH_ORIGIN}}/login?goto={{env.ACCOUNT_ORIGIN}}"
+        >
+            {{b/svg/icon/add.svg}}
+        </a>
+
+        <button class="logout flex center-column" style="
+            margin-left: auto;
+        ">
+            {{b/svg/icon/logout.svg}}
+        </button>
+    </div>
+    
+    </div>
+</div>
+
