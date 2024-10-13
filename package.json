@@ -1,7 +1,18 @@
 {
-    "name": "html_base",
-    "version": "1.0.0",
+    "name": "compiler_html",
+    "version": "1.0.9",
+    "main": "./src/js/index.js",
+    "type": "module",
     "scripts": {},
-    "license": "MIT"
-  }
-  
+    "license": "MIT",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dencelman1/html_base.git"
+    },
+    "author": "dencelman",
+    "bugs": {
+        "url": "https://github.com/dencelman1/html_base/issues"
+    },
+    "homepage": "https://github.com/dencelman1/html_base#readme"
+}
