@@ -1,7 +1,7 @@
 import {dirname, join} from "path";
 import { fileURLToPath } from "url";
 
-export default console.log(
+export default (
     join(
         dirname(
         dirname(
