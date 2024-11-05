@@ -8,10 +8,16 @@
                     id="replaySwitch"
                     title="Replay"
                 >
-                    <b--svg--icon--file--reload
-                        width="20px"
-                        height="20px"
-                    />
+                    <b--svg--icon--file--reload />
+                </button>
+            </li>
+            <li>
+                <button
+                    id="displaySwitch"
+                    title="Display"
+                    class="on"
+                >
+                    <b--svg--icon--file--image />
                 </button>
             </li>
         </ol>
@@ -20,12 +26,27 @@
     <b--e--view--settings--li>
         <button
             id="speedSwitch"
+            class="to-ob"
         >
             <b--e--view--settings--left-span>
                 Speed
             </b--e--view--settings--left-span>
             <b--e--view--settings--right-span>
                 Normal
+            </b--e--view--settings--right-span>
+        </button>
+    </b--e--view--settings--li>
+
+    <b--e--view--settings--li>
+        <button
+            id="qSwitch"
+            class="to-ob"
+        >
+            <b--e--view--settings--left-span>
+                Quality
+            </b--e--view--settings--left-span>
+            <b--e--view--settings--right-span>
+                0
             </b--e--view--settings--right-span>
         </button>
     </b--e--view--settings--li>
