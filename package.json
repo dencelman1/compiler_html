@@ -1,6 +1,6 @@
 {
     "name": "compiler_html",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "main": "./src/js/index.js",
     "type": "module",
     "link":true,
