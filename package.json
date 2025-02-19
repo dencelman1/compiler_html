@@ -3,7 +3,6 @@
     "version": "1.0.10",
     "main": "./src/js/index.js",
     "type": "module",
-    "link":true,
     "scripts": {},
     "license": "MIT",
     "description": "",
@@ -15,5 +14,6 @@
     "bugs": {
         "url": "https://github.com/dencelman1/html_base/issues"
     },
-    "homepage": "https://github.com/dencelman1/html_base#readme"
+    "homepage": "https://github.com/dencelman1/html_base#readme",
+    "imports": {}
 }
